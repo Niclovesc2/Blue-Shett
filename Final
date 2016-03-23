@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Personal Technology</title>
+
+    <meta name="description" content='Fundamentally input and output depends on a physical phenomena' />
+    <meta name="author" content="Rich Hildred" />
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+    <link href="https://impress.github.io/impress.js/css/impress-demo.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <div class="fallback-message">
+        <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+        <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+    </div>
+    <div id="impress">
+        <div id="slide0" class="step slide" data-x="500" data-y="-7800">
+             <img src="data:image/png;base64,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" style="display:block;width:100%;margin:0 auto"/>
+            <h1>Technology development and Pro-gaming input</h1>
+            <p>Jianpeng Li</p>
+        
+         
+        </div>
+        <div id="slide1" class="step slide" data-x="500" data-y="-7100">
+           <font size="7">Agenda</font size="7">
+           <br><b/r>
+           <br><b/r>
+           <br><b/r>  
+          1.The introduction of pro-gaming inputs
+           <br><b/r>
+           <br><b/r>
+          2.Advantages and differences 
+            <br><b/r>   
+            <br><b/r>
+          3.Using experience 
+            <br><b/r>
+            <br><b/r>
+          4. Output and conclusion
+          
+           
+        </div>
+        <div id="slide2" class="step slide" data-x="500" data-y="-6400">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN_EqXXME8PiAGbHyObQrdYu8rD2abkImTPOZtgQerzadPxHmjgA" style="display:block;width:50%;margin:0 auto"/>
+            <h1></h1>
+            <p>Pro-gaming inputs are designed for pro-gamers and people who love playing games. It not only has fancy appearance but also improves your gaming experience. </p>
+            
+            
+        </div>
+        <div id="slide3" class="step slide" data-x="500" data-y="-5700">
+             <iframe width="100%" height="80%"src="https://www.youtube.com/embed/da09LgzA0sY" frameborder="0" allowfullscreen></iframe>                  
+             <h1>Pro-gaming keyboard has faster reaction speed than normal keyboards. A slightly change makes everything different in a match. </h1>
+             
+       </div>
+       <div id="slide4" class="step slide" data-x="500" data-y="-5000">
+            <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTpHr3gOC2owsmetGptvp_zB53fe0psFFoBumm1j2DDGtwH7VVx4g" style="display:block;width:100%;margin:0 auto"/>
+            <p>"Example: The Steelseries 6gv2 mechanical keyboard. The keyboard is constructed on full matal base. The mechanical keyboard has high performance and stability. It allows user to press couples of buttens at the same time and react in the blink of an eye."</p>
+       
+        
+        </div>
+        <div id="slide5" class="step slide" data-x="500" data-y="-4300">
+             <iframe width="100%" height="80%" src="https://www.youtube.com/embed/E8KOcbDp-68" frameborder="0" allowfullscreen></iframe> 
+             <h1>Gaming mouse is faster and more accurate.</h1>
+         
+             
+         </div>
+        <div id="slide6" class="step slide" data-x="500" data-y="-3600">
+              <iframe width="100%" height="80%" src="https://www.youtube.com/embed/iww4DdPMdbs" frameborder="0" allowfullscreen></iframe>                        
+               <h1>Output matters. Geforce GTX Titan Z. One of the best graphic card nowadays</h1>
+                        <p></p>
+        </div>
